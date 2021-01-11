@@ -1,18 +1,3 @@
-
-/* * {
-  -webkit-font-smoothing: antialiased;
-  color: #acbdce;
-} */
-
-
-/* body, html {
-  background: #e2e9f4;
-  display: grid;
-  height: 100%;
-  grid-template: 1fr/100%;
-  place-items: center;
-} */
-
 .Card {
   padding: 1px;
   border-radius: .5rem;

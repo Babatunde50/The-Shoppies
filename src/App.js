@@ -18,7 +18,7 @@ function App() {
     setSearch(e.target.value);
     setLoading(true);
     fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_IMDB_API_KEY}&s=${e.target.value}`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_IMDB_API_KEY}&s=${e.target.value}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -84,6 +84,7 @@ function App() {
                     <Movie
                       nominationText="nominate"
                       movie={movie}
+                      key={movie.imdbID}
                       nominationHandler={addNominationHandler}
                       isDisabled={nominations
                         .map((nom) => nom.imdbID)
@@ -104,6 +105,7 @@ function App() {
             {nominations &&
               nominations.map((movie) => (
                 <Movie
+                  key={movie.imdbID}
                   nominationText="remove"
                   movie={movie}
                   nominationHandler={removeNominationHandler}

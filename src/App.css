@@ -3,24 +3,6 @@
   margin: 0 auto;
 }
 
-button{
-  font-size: 24px;
-  padding: .5rem 1rem;
-  margin: .5rem;
-  box-sizing: border-box;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-button:disabled,
-button[disabled],
-#add[disabled] {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
 
 .default-text {
   text-align: center;
@@ -29,10 +11,6 @@ button[disabled],
 .error-text {
   text-align: center;
   color: red;
-}
-
-button:hover {
-  box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
 }
 
 #add{
