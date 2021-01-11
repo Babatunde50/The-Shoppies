@@ -1,0 +1,14 @@
+.movie-container {
+  margin: 0 0 .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 3px 7px 23px 1px rgba(0,0,0,0.66);
+  background-color: white;
+  color: black;
+}
+
+.movie-title {
+  font-family: 'Orbitron', sans-serif;
+}
