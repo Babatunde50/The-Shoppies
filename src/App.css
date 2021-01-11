@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 
-
 .default-text {
   text-align: center;
 }
@@ -44,7 +43,13 @@
 
 .movies-container {
   display: flex;
+  flex-direction: column;
+}
 
+@media only screen and (min-width: 768px) {
+  .movies-container {
+    flex-direction: row;
+  }
 }
 
 .movies {
