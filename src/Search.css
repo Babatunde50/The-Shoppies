@@ -45,34 +45,11 @@ label {
   background: linear-gradient(45deg, rgba(#6b7b8f, 1), #3c4b66);
 }
 
-.InputContainer {
+.input-container {
   width: 100%;
-}
-
-.input {
-  background-color: #e3edf7;
-  padding: 16px 32px;
-  border: none;
-  display: block;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 600;
-  color: #a9b8c9;
-  -webkit-appearance: none;
-  transition: all 240ms ease-out;
-  width: 100%;
-};
-
-.input::placeholder {
-  color: #6d7f8f;
-}
-
-.input:focus {
-  outline: none;
-  color: #6d7f8f;
-  background-color: lighten(#e3edf7, 3%);
 }
   
-.InputContainer {
+.input-container {
   --top-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
   --bottom-shadow: inset -2px -2px 4px rgba(255,255,255, .7);
   

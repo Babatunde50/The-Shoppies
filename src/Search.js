@@ -23,7 +23,7 @@ const Search = ({ value, searchHandler }) => {
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
           </div>
-          <div className="InputContainer">
+          <div className="input-container">
             <input className="input" value={value} onChange={searchHandler}  placeholder="captain america..." />
           </div>
         </div>
